@@ -1,0 +1,27 @@
+{
+  "name": "theme",
+  "description": "Theme created by Made Neat",
+  "version": "0.0.0",
+  "license": "ISC",
+  "author": {
+    "name": "Made Neat"
+  },
+  "repository": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "grunt": "*",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-postcss": "^0.8.0",
+    "load-grunt-config": "*",
+    "load-grunt-tasks": "*"
+  }
+}

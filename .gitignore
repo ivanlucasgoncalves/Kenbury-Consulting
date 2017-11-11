@@ -1,0 +1,13 @@
+/.idea/
+/local-config.php
+/sitemap.xml
+/sitemap.xml.gz
+.DS_Store
+.htaccess
+node_modules
+content/uploads/
+content/themes/the-water-cooler-guys/node_modules
+content/themes/the-water-cooler-guys/package-lock.json
+composer.json
+composer.lock
+vendor

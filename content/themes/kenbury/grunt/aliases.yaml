@@ -1,0 +1,9 @@
+default:
+  - 'watch'
+
+build:
+  - 'sass'
+  - 'postcss'
+  - 'jshint'
+  - 'uglify'
+  - 'imagemin'

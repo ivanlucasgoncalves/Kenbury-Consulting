@@ -1,0 +1,27 @@
+// =============================================================================
+// Variables
+// =============================================================================
+
+//Colors
+$white:           #FFFFFF;
+$purple:          #C21B91;
+$gold:            #FDA700;
+$blue:            #60C2F8;
+$black:           #333333;
+$grey:            #999999;
+
+//Theme Colors
+
+
+//Type of font
+$helvetica:           'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+//Mixin variables
+
+//Entry Content
+@mixin entr-cont {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards 0.5s;
+}
+
