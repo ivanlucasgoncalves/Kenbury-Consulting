@@ -10,14 +10,14 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
     // Salt keys, generated via https://api.wordpress.org/secret-key/1.1/salt/
     // NOTE these need to be different for each environment otherwise they can cause interference when
     //      logging into prod v staging etc.
-    define('AUTH_KEY',         '14&?E)/7DdlY(OqO*;83:o0TJK[z#h/.nC2Os@r6H~L8x@wN`TaSNl2(SOSY,X@#');
-    define('SECURE_AUTH_KEY',  'f]?Y,^P44L-uW(7.AiKyE+TXM{5+YGGC+L|r4Wp[)--sscE~,.^po`-+^;=f.[.8');
-    define('LOGGED_IN_KEY',    '[#/G_ZVs|0=(-IZ9|5@.4EME+mY]91r-_4oAn<]OqJu-4kL^;?I~D^3--4$nehNG');
-    define('NONCE_KEY',        'bo/lG7*X8x|}#v=O2U4dO !L3 )kzV^|QcQGtZvk`j .Oj~T2q)5c(Cjb76|+-f@');
-    define('AUTH_SALT',        'q;.F6w+[2pjW!PZ%w7M-aGoO.DQ4?22({@2p!~pdQgKu^^h}`~tC}S=T`maL2q4f');
-    define('SECURE_AUTH_SALT', '_lcN<$W~;cZsLAekz,5pfJI!EuA,y|P!@&S{{H4P%C-);~[ivunz:il_}w_U-?!%');
-    define('LOGGED_IN_SALT',   '++x#(h;pa$L8qG;v|+YejHL3&Ys]-ZJ0}2jbV#r!fDl@17U[A}.LUO-GtK-M2i^1');
-    define('NONCE_SALT',       '!KlzQt5P<|/+h#OAD-IHSMi:c6#-e@h@K7vGb7U|VPnVj^y`@MsMT{v-`h-Q#xqz');
+    define('AUTH_KEY',         ' H/+(saPhS_wtXRY*}Ylq*XleX!FsF-[@+yN+Y/WMq+cg)vvG=91C{c17<V*Z0u{');
+    define('SECURE_AUTH_KEY',  'QrQc!=<C~C(,b}/ $P?zfW1i,-p;fb H4}@oo+o|}ei{l]?lA&U|6.yfS1j;q2x-');
+    define('LOGGED_IN_KEY',    'V:W{C*x{[;qP?hrRBi];,-/6WZ(|-i/479R`$mGU|XA .Q:A_uN=b+Wm.C|AabtR');
+    define('NONCE_KEY',        't6>><;Rmlhr?uZuGmy#|Z(#!@W`v#;<|`+*,6[Jo.^c44=G:|aK[i(E4U:7_zwth');
+    define('AUTH_SALT',        'xrvvj~g@aYv )>Y)%3@87nv!!`U(hp>EqL?e$_LiswUuxf2v3xY7b%IA!- 1]#ka');
+    define('SECURE_AUTH_SALT', 'yJi6)G{lZ^f2 |yFt!:BvQh|h@D#-_~5jJ-A$cp1T+;fV1*To55TkD.+LY=I+-pm');
+    define('LOGGED_IN_SALT',   'tFqo+5v-&v`5}hw|_?-K&X8^X^*uXph|~R1PT)~p3L,.OQ0%k~!3/;z0uzryC-I|');
+    define('NONCE_SALT',       'aoRq*/bl[|(y/5*W<[~{)Jzzs`r(`Ch&|~/]--U<sm6?2|RE/#S+UgM^[WX8Igb0');
 
 } else { // PRODUCTION
 

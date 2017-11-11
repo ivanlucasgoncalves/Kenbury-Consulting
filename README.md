@@ -1,10 +1,10 @@
-# Made Neat
+# Kenbury Consulting
 
 Hi. I'm a starter theme created by Made Neat. We pride ourselves on a combination of hard work and passion for creating the best product we can.
 
 ## Precursor
 
-A Website for **** designed by **Jackson Poultney** and developed by **Ivan Lucas**. This project is managed by **Paul Tevis**.
+A Website for **** designed by **Arthur Pigue** and developed by **Ivan Lucas**.
 
 ---
 
@@ -21,7 +21,6 @@ A Website for **** designed by **Jackson Poultney** and developed by **Ivan Luca
 
 * Advanced Custom Fields - ACF
 * Gravity Forms
-* Woocommerce
 
 
 ## Installation
