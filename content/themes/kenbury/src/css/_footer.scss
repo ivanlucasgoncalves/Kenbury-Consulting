@@ -1,3 +1,29 @@
 // =============================================================================
 // Footer
 // =============================================================================
+
+footer#colophon {
+  .ctn-lnks-footer {
+    background-color: #F9F9F9;
+    padding: 40px 0;
+    h4.widget-title {
+      color: $main_color;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    ul.menu {
+      li {
+        margin-top: 15px;
+        a {
+          color: #AAAAAA;
+        }
+      }
+    }
+  }
+  .site-info {
+    p {
+      color: #AAAAAA;
+      font-size: 13px;
+    }
+  }
+}

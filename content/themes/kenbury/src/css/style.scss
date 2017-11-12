@@ -43,6 +43,33 @@
 // 05. General Style
 // =============================================================================
 
+html, body {
+  font-family: $poppins_light;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: $p_theme;
+}
+h1, h2, h3, h4, h5, h6 {}
+h1 {
+  font-family: $poppins_bold;
+}
+h2 {
+  font-family: $poppins_sm-bold;
+}
+h3 {
+  font-family: $poppins_regular;
+}
+h4 {
+  font-family: $poppins_sm-bold;
+}
+a, 
+a:hover, 
+a:after, 
+a:before, 
+a:hover:before, 
+a:hover:after {
+  transition: all 0.2s ease-in-out;
+}
 
 
 // =============================================================================
@@ -61,9 +88,9 @@
 @import "unslider";
 
 // =============================================================================
-// 07. Home Pages Features
+// 07. General Style
 // =============================================================================
-@import "home-features";
+@import "general-style";
 
 // =============================================================================
 // 07. Footer

@@ -30,3 +30,8 @@ function starter_theme_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'starter_theme_pingback_header' );
+ 
+function add_linebreak_shortcode() {
+return '<br />';
+}
+add_shortcode('br', 'add_linebreak_shortcode' );

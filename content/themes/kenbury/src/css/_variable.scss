@@ -11,10 +11,15 @@ $black:           #333333;
 $grey:            #999999;
 
 //Theme Colors
-
+$p_theme:         #666666;
+$main_color:      #006291;
 
 //Type of font
-$helvetica:           'Helvetica Neue', Helvetica, Arial, sans-serif;
+$poppins_regular:     'Poppins Regular', Arial, sans-serif;
+$poppins_bold:        'Poppins Bold', Arial, sans-serif;
+$poppins_light:       'Poppins Light', Arial, sans-serif;
+$poppins_italic:      'Poppins Italic', Arial, sans-serif;
+$poppins_sm-bold:     'Poppins Semi-bold', Arial, sans-serif;
 
 
 //Mixin variables
@@ -23,5 +28,21 @@ $helvetica:           'Helvetica Neue', Helvetica, Arial, sans-serif;
 @mixin entr-cont {
   opacity: 0;
   animation: fadeIn 0.5s forwards 0.5s;
+}
+
+@mixin btns {
+  border-radius: 5px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-family: $poppins_sm-bold;
+  color: $white;
+  background-color: $main_color;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  &:hover {
+    background-color: #0377AF;
+    color: $white;
+  }
 }
 
