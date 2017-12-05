@@ -3,9 +3,8 @@
 	$image_right = wp_get_attachment_image(get_sub_field('banner_right_image'), 'large');
 ?>
 
-<article id="dbl-clmn-img">
+<div id="dbl-clmn-img">
 	
-	<div class="container">
 		<div class="row">
 			<section class="col-md-6">
 				<?php if (get_sub_field('banner_left_image')) { ?>
@@ -18,6 +17,5 @@
 				<?php } ?>
 			</section>
 		</div>
-	</div>
 	
-</article>
+</div>

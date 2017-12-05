@@ -8,7 +8,6 @@
 // 06. Header
 // 07. Menu
 // 07. Slider
-// 07. Home Pages Features
 // 19. Footer
 // 19. Forms
 // 20. Breakpoints - Responsive General Style | Header | Internal Pages | Footer
@@ -49,7 +48,9 @@ html, body {
   letter-spacing: 0.8px;
   color: $p_theme;
 }
-h1, h2, h3, h4, h5, h6 {}
+h1, h2, h3, h4, h5, h6 {
+  color: $main_color;
+}
 h1 {
   font-family: $poppins_bold;
 }
@@ -70,7 +71,22 @@ a:hover:before,
 a:hover:after {
   transition: all 0.2s ease-in-out;
 }
-
+blockquote {
+  border-left: 2px solid $main_color;
+  margin-left: 0;
+  padding-left: 20px;
+  p {
+    color: $main_color;
+  }
+}
+b, strong {
+  font-family: $poppins_bold;
+}
+.site-content {
+  a {
+    color: $main_color;
+  }
+}
 
 // =============================================================================
 // 06. Header
