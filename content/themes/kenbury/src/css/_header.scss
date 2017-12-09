@@ -22,7 +22,7 @@ header {
         transform: translateY(-50%);
         h3 {
           color: $main_color;
-          font-size: 30px;
+          font-size: 28px;
           font-family: $poppins_sm-bold;
         }
         h4 {
@@ -63,7 +63,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 99;
-    padding: 20px 0;
+    padding: 15px 0;
     display: block;
     transition: background-color 0.2s ease-in-out;
     backface-visibility: hidden;

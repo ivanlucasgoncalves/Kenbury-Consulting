@@ -2,6 +2,11 @@
 // JS Document File
 // =============================================================================
 
+$(window).load(function() { //Pre Loader
+  $('body').addClass('loaded');
+  //$('.spinner').remove();
+});
+
 //Scroll Menu
 (function($){
   'use strict';

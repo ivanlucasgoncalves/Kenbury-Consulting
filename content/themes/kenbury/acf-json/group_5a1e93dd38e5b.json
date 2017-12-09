@@ -1,0 +1,48 @@
+{
+    "key": "group_5a1e93dd38e5b",
+    "title": "Sub header",
+    "fields": [
+        {
+            "key": "field_5a1e93e50942a",
+            "label": "Sub Header Title",
+            "name": "sub_header_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Enter the sub header title here",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "top_level"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "page-templates\/home-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1512553894
+}

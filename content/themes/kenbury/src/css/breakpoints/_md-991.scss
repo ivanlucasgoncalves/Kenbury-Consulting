@@ -2,6 +2,11 @@
 // MD | Medium devices (tablets, less than 992px)
 // =============================================================================
 
-.unslider-nav {
-  max-width: 960px
+.site .btn-pad {
+  font-size: 11px;
+  padding: 14px 12px;
+}
+
+.unslider #slider ul li .div-slider {
+  padding-left: 0;
 }

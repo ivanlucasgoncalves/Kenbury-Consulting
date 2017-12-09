@@ -44,8 +44,8 @@
 
 html, body {
   font-family: $poppins_light;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
   color: $p_theme;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -85,6 +85,20 @@ b, strong {
 .site-content {
   a {
     color: $main_color;
+  }
+  ul {
+    padding-left: 30px;
+    li {
+      list-style: circle;
+      margin: 12px 0;
+    }
+  }
+  ol {
+    padding-left: 30px;
+    li {
+      list-style: decimal;
+      margin: 12px 0;
+    }
   }
 }
 

@@ -27,3 +27,11 @@ footer#colophon {
     }
   }
 }
+
+//Blogs
+body.blog,
+body.single {
+  footer#colophon .ctn-lnks-footer {
+    padding-top: 180px;
+  }
+}

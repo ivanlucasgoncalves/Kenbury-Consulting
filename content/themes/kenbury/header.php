@@ -21,6 +21,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php do_action('after_body_open_tag'); ?>
+
 <div id="page" class="site">
   
     <?php if (is_front_page()) : ?>

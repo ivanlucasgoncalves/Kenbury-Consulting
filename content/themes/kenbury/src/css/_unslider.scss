@@ -14,14 +14,16 @@
     z-index: 0;
     ul {
       li {
+        list-style: none;
+        margin: 0;
         .div-slider {
           padding-left: 50px;
           position: relative;
           z-index: 11;
           h2 {
             color: $white;
-            font-size: 42px;
-            line-height: 52px;
+            font-size: 40px;
+            line-height: 50px;
           }
           p {
             color: $white;
@@ -47,7 +49,7 @@
       line-height: 30px;
       position: relative;
       z-index: 1;
-      font-size: 18px;
+      font-size: 16px;
     }
     svg {
       position: absolute;
@@ -73,6 +75,8 @@
 }
 .unslider-carousel > li {
   float: left;
+  list-style: none !important;
+  margin: 0 !important;
 }
 .unslider-fade {
   position: relative;

@@ -61,7 +61,7 @@
             <h4>Services</h4>
             <h3>For Employers</h3>
             <p>We are all about building partnerships for success.</p>
-            <a href="#" class="btn-pad">Learn more</a>
+            <a href="/employers" class="btn-pad">Learn more</a>
           </div>
         </div>
         <div class="col-md-6">
@@ -69,7 +69,7 @@
             <h4>Services</h4>
             <h3>For Candidates</h3>
             <p>We are all about building partnerships for success.</p>
-            <a href="#" class="btn-pad">Learn more</a>
+            <a href="/candidates" class="btn-pad">Learn more</a>
             <a href="#" class="btn-pad">View open opportunities</a>
           </div>
         </div>

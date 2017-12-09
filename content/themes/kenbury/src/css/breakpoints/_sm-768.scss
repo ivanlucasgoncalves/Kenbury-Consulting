@@ -1,0 +1,152 @@
+// =============================================================================
+// SM | Small devices (landscape phones, less than 768px)
+// =============================================================================
+
+html, body {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  p {
+    line-height: 24px
+  }
+}
+
+header {
+  &.home-header {
+    min-height: 70vh;
+    margin-bottom: 30px;
+  }
+  &.entry-header {
+    .cnt-header {
+      h1 {
+        font-size: 36px;
+        margin: 35px 0 0;
+        line-height: 52px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.unslider {
+  #slider {
+    height: 70vh;
+    ul {
+      li {
+        .container,
+        .row  {
+          .col-lg-5 {
+            align-items: flex-end;
+            .div-slider {
+              padding-bottom: 20px;
+              padding-left: 0;
+              h2 {
+                font-size: 30px;
+                line-height: 38px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #slider-testimonials {
+    .ctn-testimo {
+      padding-left: 35px;
+      padding-right: 35px;
+      svg {
+        display: none;
+      }
+      h5 {
+        font-size: 14px;
+      }
+    }
+    p {
+      font-size: 13px;
+      line-height: 26px;
+      text-align: center;
+    }
+  }
+}
+.unslider-nav {
+  display: none;
+}
+
+#testimonials {
+  padding: 45px 0;
+  margin-top: 20px;
+}
+
+body {
+  &.home {
+    #ftr-choose {
+      margin-top: 40px;
+    }
+  }
+  #ftr-choose {
+    .blk-inner {
+      padding: 20px;
+      &.ctn-left,
+      &.ctn-right {
+        border-left: 0;
+        border-right: 0;
+      }
+    }
+  }
+}
+
+body:not(.home){
+  .site-content {
+    article.page,
+    article.ctn-innerBlog,
+    .main-blogPage {
+      top: -60px;
+      padding: 15px 15px;
+    }
+  }
+}
+
+body.blog {
+  .main-blogPage {
+    .inner-blks {
+      padding: 15px;
+    }
+  }
+}
+.blk-blog {
+  h2 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .ctn-read {
+    padding: 15px 20px;
+  }
+}
+
+.feature-bottom {
+  #get-in-touch {
+    bottom: -40px;
+    .blk-getintouch {
+      padding: 20px;
+      .ctn-left h2 {
+        font-size: 30px;
+      }
+      .ctn-right {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.blk-blog.footer-blk {
+  padding: 120px 0 80px 0;
+}
+
+body.blog footer#colophon .ctn-lnks-footer, 
+body.single footer#colophon .ctn-lnks-footer {
+  padding-top: 100px;
+}
+

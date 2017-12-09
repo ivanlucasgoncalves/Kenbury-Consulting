@@ -64,3 +64,45 @@ function header_part($slug, $params = array())
     // Build
     include $template;
 }
+
+/*
+** Custom Options Tab
+*/
+if (function_exists('acf_add_options_page')) {
+    // add parent
+    acf_add_options_page(
+        array(
+        'page_title'     => 'Theme General Settings',
+        'menu_title'     => 'Theme Settings'
+        )
+    );
+}
+
+/*
+** Pre Loader
+*/
+function kenbury_appendhtml()
+{
+    if (is_front_page()) {
+        ?>
+        <div class="loader-wrapper">
+          <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+          </div>
+        </div>
+        <?php
+    }
+}
+add_action('after_body_open_tag', 'kenbury_appendhtml');
+
+/*
+** CSS admin area for ACF inputs
+*/
+function my_acf_admin_head() {
+    $style = '';
+    $style = '.post-type-page .acf-image-uploader { max-width:50%; }';
+	  $style .= '.post-type-page .acf-field-text .acf-input-wrap input { padding: 3px 8px;font-size: 1.7em;line-height: 100%;height: 1.7em;width: 100%;outline: 0;margin: 0 0 3px;background-color: #fff; }';
+    echo '<style type="text/css">'.$style.'</style>';
+}
+add_action('acf/input/admin_head', 'my_acf_admin_head');

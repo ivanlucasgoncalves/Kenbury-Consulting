@@ -14,7 +14,7 @@
   z-index: 90;
   top: 0;
   padding-top: 95px;
-  background: $main_color;
+  background-image: url(../images/building.jpg);
   .menu-main-menu-container {
     max-width: 1140px;
     margin: auto;
@@ -62,6 +62,7 @@
       }
     }
   }
+  @include back_header; // Background color opacity blue
 }
 #toggle:checked ~ #site-navigation { // MAking the scroll down up
   visibility: visible;

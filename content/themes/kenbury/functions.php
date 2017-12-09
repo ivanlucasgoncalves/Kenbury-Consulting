@@ -113,6 +113,17 @@ function kenbury_scripts()
     if (!is_admin()) {
         // comment out the next two lines to load the local copy of jQuery
         wp_deregister_script('jquery');
+        wp_deregister_script('wp-embed');
+        // Remove the REST API endpoint.
+        remove_action('rest_api_init', 'wp_oembed_register_route');
+        // Turn off oEmbed auto discovery.
+        // Don't filter oEmbed results.
+        remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
+        // Remove oEmbed discovery links.
+        remove_action('wp_head', 'wp_oembed_add_discovery_links');
+        // Remove oEmbed-specific JavaScript from the front-end and back-end.
+        remove_action('wp_head', 'wp_oembed_add_host_js');
+        // Google CDN
         wp_enqueue_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, null, true);
         // Add livereload for local access | DO NOT CHANGE
         wp_enqueue_script('livereload', 'http://localhost:35729/livereload.js?snipver=1', null, false, true);
