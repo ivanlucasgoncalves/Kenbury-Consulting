@@ -331,6 +331,22 @@ body.blog {
           text-align: right;
           margin: 0;
         }
+        .blks-social-media {
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 7px;
+          a.linkedin,
+          a.twitter {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin-left: 7px;
+            svg {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
       }
       &:before {
         content: "";
