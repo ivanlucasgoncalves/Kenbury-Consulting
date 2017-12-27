@@ -16,7 +16,12 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-
+    <link rel="shortcut icon" href="<?php get_site_icon_url(); ?>" />
+    <?php if (is_front_page()) : ?>
+      <title><?php bloginfo( 'name'); echo ' | '; bloginfo( 'description'); ?></title>
+    <?php else : ?>
+      <title><?php wp_title(''); echo ' | '; bloginfo( 'description'); ?></title>
+    <?php endif; ?>
     <?php wp_head(); ?>
 </head>
 

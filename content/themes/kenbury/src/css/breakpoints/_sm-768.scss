@@ -10,12 +10,20 @@ html, body {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.2px;
+}
+
 header {
   &.home-header {
-    min-height: 70vh;
-    margin-bottom: 30px;
+    min-height: 400px;
+    margin-bottom: 15px;
+    .bottom-header { // Fixed CSS Breakpoint error
+      display: none !important;
+    }
   }
   &.entry-header {
+    min-height: 400px;
     .cnt-header {
       h1 {
         font-size: 36px;
@@ -24,6 +32,7 @@ header {
       }
       p {
         font-size: 14px;
+        margin: 0;
       }
     }
   }
@@ -31,13 +40,14 @@ header {
 
 .unslider {
   #slider {
-    height: 70vh;
+    height: 100%;
     ul {
       li {
         .container,
         .row  {
           .col-lg-5 {
             align-items: flex-end;
+            justify-content: flex-start;
             .div-slider {
               padding-bottom: 20px;
               padding-left: 0;
@@ -151,8 +161,8 @@ body.single footer#colophon .ctn-lnks-footer {
 }
 
 footer#colophon .ctn-lnks-footer {
-  .col-md-3 {
-    margin-bottom: 15px;
+  .col-md-2 {
+    margin-bottom: 20px;
     &:last-child {
       margin-bottom: 0;
     }

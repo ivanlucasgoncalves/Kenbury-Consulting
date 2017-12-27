@@ -26,14 +26,15 @@
         display: flex;
         justify-content: flex-end;
         a {
-          display: inline-flex;
-          align-items: center;
+          display: inline-block;
           color: $white;
           font-size: 40px;
           font-family: $poppins_bold;
           letter-spacing: 1.5px;
-          transition: all 0.2s ease-in-out;
           position: relative;
+          span {
+            opacity: 0;
+          }
           &:after {
             content: '';
             width: 0;
