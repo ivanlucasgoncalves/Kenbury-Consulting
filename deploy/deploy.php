@@ -12,7 +12,7 @@ date_default_timezone_set('Australia/Brisbane');
 ignore_user_abort(true);
 set_time_limit(0);
 
-$repo          = '~/kenbury';
+$repo          = '~/wp-content/themes/kenbury';
 $branch        = 'master';
 $output        = array();
 
