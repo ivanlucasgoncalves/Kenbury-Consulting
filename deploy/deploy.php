@@ -12,7 +12,7 @@ date_default_timezone_set('Australia/Brisbane');
 ignore_user_abort(true);
 set_time_limit(0);
 
-$repo          = '../wp-content/themes/kenbury';
+$repo          = '~/wp-content/themes/kenbury/';
 $branch        = 'master';
 $output        = array();
 
@@ -28,7 +28,8 @@ rrmdir(__DIR__ . '/../cache', true);
 rrmdir(__DIR__ . '/../images', true);
 rrmdir(__DIR__ . '/../assets', true);
 
-function rrmdir($dir, $keep) {
+function rrmdir($dir, $keep)
+{
     if (!is_dir($dir)) {
         return;
     }
