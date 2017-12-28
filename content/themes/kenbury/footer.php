@@ -167,7 +167,7 @@
                     <div class="col-12">
                         <p><?php printf(esc_html__('COPYRIGHT © 2017', 'kenbury')); ?>
                         <span class="sep"> | </span>
-        <?php printf(esc_html__('All rights reserved...', 'kenbury')); ?></p>
+        <?php printf(esc_html__('All rights reserved......', 'kenbury')); ?></p>
                     </div>
                 </div>
             </div>
